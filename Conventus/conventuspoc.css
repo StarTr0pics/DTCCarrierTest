@@ -1,0 +1,49 @@
+  	.modal-header {
+  		background-color: rgb(131,134,171) !important;
+  	}
+
+  	.screen-label {
+  		color: rgb(131,134,171);
+  	}
+
+  	.field-label {
+  		color: rgb(131,134,171);
+  		font-weight: bold;
+  	}
+
+	.field_grid__button.btn-primary.btn.btn-default.btn-block {
+  		background-color: rgb(131,134,171);
+	}
+
+  	.field.field-button.btn-block.btn-default.runtime-btn.btn.btn-primary {
+  		background-color: rgb(247,143,32);
+  	}
+
+  	.btn.btn-primary {
+  		background-color: rgb(247,143,32);
+  	}
+
+  	.runtime-group__header.not-inherit-size {
+  		border-color: rgb(131,134,171) !important;
+  		color: rgb(74,74,74) !important;
+  	}
+
+  	.navpanel__item.list-group-item {
+  		color: rgb(131,134,171) !important;
+  	}
+  	
+  	
+  	/* This section is for alert boxes */
+  	/*
+  	.alert-info {
+  		background-color: rgb(131,134,171) !important;
+  	}
+	*/
+	
+  	input:hover {
+  		background-color: yellow;
+  	}
+  	
+  	.h3 {
+  		color: rgb(131,134,171) !important;
+  	}
