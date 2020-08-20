@@ -14,9 +14,9 @@
 <body>
 
   <!-- Page Content -->
-        <script data-name="CesLib" src="https://ngsd-dtc-uat.ipipeline.com/dist/CesLib.Classic.js"></script>
+        <script data-name="CesLib" src="https://ngsd-dtc.ipipeline.com/dist/CesLib.Classic.js"></script>
         <script>
-          var CesPlatform = getCesPlatform({
+          var CesPlatform = getUpdatedCesPlatform({
             OrganizationId: "IPIPELINE",
             CompanyId: "IPIPELINE",
             SubCompanyId: "7424",
@@ -27,8 +27,8 @@
             FormsPackageName: "AMICA_DTC",
             Name: "Amica",
             ElementId: "dtc",
-            Env: "test",
-            Nav: false
+            Env: "PD1",
+            Nav: true
           }, function (result) {
             console.info('Loaded: ' + result.toString());
           })
