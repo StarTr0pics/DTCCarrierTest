@@ -1,0 +1,126 @@
+  	.modal-header {
+  		background-color: rgb(131,134,171) !important;
+  	}
+
+  	.screen-label {
+  		color: rgb(131,134,171);
+  	}
+
+  	.field-label {
+  		color: rgb(131,134,171);
+  		font-weight: bold;
+  	}
+
+	.field_grid__button.btn-primary.btn.btn-default.btn-block {
+  		background-color: rgb(131,134,171);
+	}
+
+  	.field.field-button.btn-block.btn-default.runtime-btn.btn.btn-primary {
+  		background-color: rgb(247,143,32);
+  	}
+
+  	.btn.btn-primary {
+  		background-color: rgb(247,143,32);
+  	}
+
+  	.runtime-group__header.not-inherit-size {
+  		border-color: rgb(131,134,171) !important;
+  		color: rgb(74,74,74) !important;
+  	}
+
+  	.navpanel__item.list-group-item {
+  		color: rgb(131,134,171) !important;
+  	}
+  	
+  	
+  	/* This section is for alert boxes */
+  	/*
+  	.alert-info {
+  		background-color: rgb(131,134,171) !important;
+  	}
+	*/
+	
+  	input:hover {
+  		background-color: yellow;
+  	}
+  	
+  	.h3 {
+  		color: rgb(131,134,171) !important;
+  	}
+  	
+	#main{
+	    width:100%;
+	    margin:0 auto;
+	}
+	
+	.igobox{
+	    float: left;
+	    width: 75%;
+	    height: 200px;
+	    // background:	rgb(247,143,32);
+	    // border: 2px solid black;
+	    margin: 0 auto;
+
+	    border-left: 6px solid black;
+	    // height: 500px;
+	    height: 100%;
+
+	}  	
+	
+	.conventusbox{
+	    float: left;
+	    width: 25%;
+	    height: 200px;
+	    // background:	rgb(247,143,32);
+	    // border: 2px solid black;
+	    margin: 0 auto;
+	    // border-right: 6px solid black;
+	    // height: 500px;
+	    // height: 100%;
+	}
+	
+	.conventusactionbutton {
+		background-color: rgb(247,143,32);
+  		color: rgb(255,255,255);
+  		border-width: 1px 1px 2px;
+  		font-family: iPipelineSemibold,Helvetica,Arial,sans-serif;
+
+  		border-bottom-color: rgb(23,81,110);
+  		border-bottom-left-radius: 4px;
+  		border-bottom-right-radius: 4px;
+  		border-bottom-style: solid;
+  		border-bottom-width: 2px;
+
+  		border-left-color: rgb(23,81,110);
+  		border-left-style: solid;
+  		border-left-width: 1px;
+
+  		border-right-color: rgb(23,81,110);
+  		border-right-style: solid;
+  		border-right-width: 1px;
+
+  		border-top-color: rgb(23,81,110);
+  		border-top-left-radius: 4px;
+  		border-top-right-radius: 4px;
+  		border-top-style: solid;
+  		border-top-width: 2px;
+  		
+  		box-sizing: border-box;
+	}
+	
+	
+	
+	// .conventusbox:after {
+	  content: "";
+	  background-color: #000;
+	  // position: absolute;
+	  width: 5px;
+	  height: 100px;
+	  top: 10px;
+	  left: 50%;
+	  display: block;
+	}	
+	
+	.horizontalcenter {
+	}
+	
