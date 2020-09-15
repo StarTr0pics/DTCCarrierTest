@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Conventus CUF</title>
+
+  <!--
+    -- This style sheet will not only style this web page it will also override iGO styles.
+    -- The customer is responsible for providing this file.
+  <link rel="stylesheet" type="text/css" href=".\Conventus\conventuspoc.css">
+    -->
+
+</head>
+
+<body>
+		<nav id="navBanner" class="navbar navbar-default banner" style="height:100px;background-color:rgb(131,134,171)">
+			<div class="container">.
+				<div class="navbar-header">
+					<a class="navbar-brand" href="#">
+					    <!--
+					      -- The customer is responsible for providing their logo.
+					      -->
+						<img id="PageBanner1_BannerLogo" class="img-responsive" src="./Conventus/companylogo.jpg" alt="Catholic Financial Life" style="border-width:0px;width:200px">
+					</a>
+				</div>
+			</div>
+		</nav>
+
+		<!--
+		  -- This is the URL to run against a QDx environment.
+		  -- TBD how we tell customers to value.
+		  -->
+        <script data-name="CesLib" src="https://ngsd-dtc-qa.ipipeline.com/dist/CesLib.Classic.js"></script>
+
+        <script>
+			var CesPlatform = getUpdatedCesPlatform({
+									OrganizationId: "IPIPELINE",
+									CompanyId: "IPIPELINE",
+									// SubCompanyId: "7532",
+									// CodeSubcompanyId: "7532",
+									SubCompanyId: "7532",
+									CodeSubcompanyId: "7532",
+									State: "WI",
+									ProductId: "9011",
+									// ProductId: "9024",
+									ScreenPackage: "Life",
+									FormsPackageName: "Conventus",
+									Name: "Conventus",
+									ElementId: "dtc",				// Into which div should iGO be placed
+									Env: "qd3",
+									Nav: true,
+									use_embedded_spinner: false
+								}
+								, function(result){
+										if (result) {
+											platformInitializationSucceeded(result);
+										}
+										else {
+											platformInitializationFailed(result);
+										}
+								  } // function(result)
+			);  // var CesPlatform
+
+
+
+          function platformInitializationSucceeded(result) {
+			console.info('ConventusCUFQD4.html: CesPlatform success');
+          } // platformInitializationSucceeded
+
+
+
+          function platformInitializationFailed(result) {
+			console.fatal('ConventusCUFQD4.html: CesPlatform Failed to Load: ' + result.toString());
+          } // platformInitializationFailed
+        </script>
+
+        <div id="main">
+        	<div class="igobox">
+		        <div id="dtc"></div>
+        	</div>
+        </div><!--end main-->
+
+</body>
+</html>
